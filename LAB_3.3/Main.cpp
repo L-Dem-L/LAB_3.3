@@ -24,8 +24,7 @@ int main() {
 				if (x > -4 && x <= 2)
 					y = (R - ((-1 - R) / (2 + 4)) * R);
 				else
-					if (x > 2)
-						y = x - 3;
+					y = x - 3;
 
 	cout << endl;
 	cout << "y=" << y << endl;
