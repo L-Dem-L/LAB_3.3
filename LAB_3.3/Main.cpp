@@ -16,13 +16,13 @@ int main() {
 		y = R;
 	else
 		if (x > -8 - R && x <= -8 + R)
-			y = sqrt(pow(R, 2) - pow(x, 2));
+			y = R - sqrt(pow(R, 2)-pow((x+8), 2));
 		else
 			if (x > -8 + R && x <= -4)
 				y = R;
 			else
 				if (x > -4 && x <= 2)
-					y = (R - ((-1 - R) / (2 + 4)) * R);
+					y = R - ((1+R)/6)*(x+4);
 				else
 					y = x - 3;
 
